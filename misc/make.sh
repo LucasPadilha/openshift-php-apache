@@ -9,6 +9,7 @@ export OPENSHIFT_RUNTIME_DIR=${OPENSHIFT_HOMEDIR}/app-root/runtime
 export ROOT_DIR=${OPENSHIFT_RUNTIME_DIR}	#CARTRIDGE
 export LIB_DIR=${ROOT_DIR}/lib
 export CONF_DIR=${OPENSHIFT_REPO_DIR}/conf
+export PATH=${OPENSHIFT_HOMEDIR}/app-root/runtime/bin/:${PATH}
 
 export DIST_PHP_VER=5.6.23
 
