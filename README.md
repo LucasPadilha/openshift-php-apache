@@ -40,7 +40,7 @@ Esse *DIY cartridge* irá instalar o PHP 5.6.23 com o driver do MongoDB e irá l
 
 ### Dicas
 
-* O processo de construção demora cerca de 30 a 40 minutos.
+* O processo de construção demora de 30 a 40 minutos.
 * Você pode alterar a versão do PHP em `misc/make.sh`
 * A documentação oficial do *DIY Cartridge* pode ser encontrada em http://openshift.github.io/documentation/oo_cartridge_guide.html#diy
 * Para instalar extensões do PHP basta adicioná-las na pasta `conf/php5/ext/` e adicionar a linha `extensions={nomedomodulo.so}` no `php.ini`
